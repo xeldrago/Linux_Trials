@@ -1,0 +1,45 @@
+hoi hoi world
+just trying some linux sh in a ssh server (or atleast thats what it is)
+### cheat sheet by xeldrago ###(more like lazy af to type sheet)
+
+
+what really happens with a command :
+("remember i said all commands you run are typically applied to the current dir?
+and you know the output of pwd is your current dir
+
+so run ls now
+
+and that means that you're applying ls on /home/xeldrago
+
+so you're listing everything in /home/xeldrago")
+
+useful linux commands:
+0. / - is root.. root is bae.. root is root of all things
+1.chsh #to change current sh
+2.cd .. #one folder up
+3.echo "aageh SAD" #echo is print statement  
+4.$variables #any variable u have should have dollar sign to start with
+5.Variable=value #no space mofo, assign em variables to them values to fill em up for use
+#oh and they are case sensitive(variables are )
+6.special variables = ($0, $USER(env too), $HOME(env variable))
+7.finger $USER #shows info abt the user
+8.apropos -e (any command) #to know about the command ,desciption of it,about it
+9. -e is exact and if its layed off... u can check your vaguely right commands 
+10. u can open up shells as u like with echo $0 followed by the sh u want but its an instance not login shell (differentiated with "-")
+11. to get ls vertically do ls -1 
+12. ls can show u any dir's files when its given arguments,like "ls /home" 
+13.touch filename to create file with the file name
+14.mkdir u know...
+15.file filename gives file data type and info
+16.cat to show a sth
+17. if [[ -f jeffstuff ]]; then echo that file fookin exists; else echo it jus doesnt
+exit ; fi  #if statement
+18. single quotes escapes spcl charecters muahhahahaha
+19. dont need touch to create file... jus used direction operator 
+20. to change a file to exe ---  chmod +x file name
+21.to make a .sh file directional operate this line #!/bin/bash and then a echo sth...
+22. first line decides what kinda file it is.. (oru paanei soruku oru shebang pathum)
+23. tail, head -number of lines
+
+
+
